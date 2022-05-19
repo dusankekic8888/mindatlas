@@ -1,0 +1,42 @@
+.headTitlePage{
+  color: #8dc153;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  text-transform: uppercase;
+}
+/* sidebar */
+#sidebar .form-group{
+  background: #8dc053;
+  padding: 10px;
+}
+#sidebar label{
+  background-color: #66ad18;
+  padding: 10px;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/*home page*/
+.table-striped {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-striped td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-striped tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-striped tr:hover {background-color: #ddd;}
+
+.table-striped th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8dc053 !important;
+  color: white;
+}
